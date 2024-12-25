@@ -1,1 +1,9 @@
 /*  your css code here. If applicable */
+/* Password input styling */
+.password-input {
+  type: password;                  /* Ensures the entered text is masked */
+  placeholder: "*******";          /* Displays the placeholder text */
+  border: 1px solid #ccc;          /* Sets a border with 1px width and #ccc color */
+  padding: 0.5rem;                 /* Adds padding for a comfortable input area */
+  font-size: 1rem;                 /* Sets the font size to 1rem for readability */
+}
